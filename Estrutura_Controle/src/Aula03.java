@@ -32,6 +32,5 @@ public class Aula03 {
         else {
             System.out.println("Sem nota");
         }
-
     }
 }
