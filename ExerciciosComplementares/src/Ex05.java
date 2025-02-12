@@ -18,6 +18,8 @@ public class Ex05 {
         var installmentsValue = readData.next().replace(",", ".");
         var installmentsValueDouble = Double.parseDouble(installmentsValue);
 
+        readData.close();
+
         if (installmentsPayed == installments) {
             System.out.println("Todas as parcelas foram pagas.");
         }

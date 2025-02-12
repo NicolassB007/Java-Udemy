@@ -10,6 +10,8 @@ public class Ex02 {
         System.out.print("Digite o segundo valor: ");
         var secondNumber = readData.nextInt();
 
+        readData.close();
+
         int addition = 0, subtraction = 0, multiplication = 1;
         double division;
         addition = firstNumber + secondNumber;

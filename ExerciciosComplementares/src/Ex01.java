@@ -13,6 +13,8 @@ public class Ex01 {
         System.out.print("Digite o terceiro valor: ");
         var thirdNumber = readData.nextInt();
 
+        readData.close();
+
         var result = (number + secondNumber) * thirdNumber;
 
         System.out.printf("O resultado de (%d + %d) x %d = %d", number, secondNumber, thirdNumber, result);

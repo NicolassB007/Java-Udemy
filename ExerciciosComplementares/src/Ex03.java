@@ -8,6 +8,8 @@ public class Ex03 {
         System.out.print("Informe um valor: ");
         var number = readData.nextInt();
 
+        readData.close();
+
         var numberSquare = Math.pow(number, 2);
 
         System.out.printf("%d x %d = %.2f", number, number, numberSquare);
