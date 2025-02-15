@@ -4,17 +4,21 @@ public class DateTeste {
     public static void main(String[] args) {
         var readData = new Scanner(System.in);
         DesafioDate date = new DesafioDate();
+        DesafioDate dateTwo = new DesafioDate();
 
-        int counter = 0;
         System.out.print("Informe um dia: ");
-        date.day = readData.nextInt();
+        dateTwo.day = readData.nextInt();
 
         System.out.print("Informe um mês: ");
-        date.month = readData.nextInt();
+        dateTwo.month = readData.nextInt();
 
         System.out.print("Informe um ano: ");
-        date.year = readData.nextInt();
+        dateTwo.year = readData.nextInt();
 
         System.out.printf(date.getDateFormated());
+        System.out.println(dateTwo.getDateFormated());
+        /*System.out.printf("DATA FORMADA -> %d/%d/%d\n", dateTwo.day, dateTwo.month, dateTwo.year);
+        System.out.println(dateTwo.getDateFormated());*/
+
     }
 }

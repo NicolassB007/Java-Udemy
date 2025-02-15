@@ -1,9 +1,9 @@
 public class ProductTeste {
     public static void main(String[] args) {
-        Product productOne = new Product();
-        productOne.productName = "Notebook";
-        productOne.productValue = 4356.89;
-        productOne.discount = 0.25;
+        Product productOne = new Product("Notebook", 4356.89, 0.25);
+        //productOne.productName = "Notebook";
+        //productOne.productValue = 4356.89;
+        //productOne.discount = 0.25;
 
         Product productTwo = new Product();
         productTwo.productName = "Caneta Preta";
