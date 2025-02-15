@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClassesMetodos/ClassesMetodos.iml" filepath="$PROJECT_DIR$/ClassesMetodos/ClassesMetodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes_e_Metodos/ClasseseMetodos.iml" filepath="$PROJECT_DIR$/Classes_e_Metodos/ClasseseMetodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Desafios_Curso/Desafios_Curso.iml" filepath="$PROJECT_DIR$/Desafios_Curso/Desafios_Curso.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estrutura_Controle/Estrutura_Controle.iml" filepath="$PROJECT_DIR$/Estrutura_Controle/Estrutura_Controle.iml" />
