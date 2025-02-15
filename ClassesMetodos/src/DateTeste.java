@@ -15,11 +15,6 @@ public class DateTeste {
         System.out.print("Informe um ano: ");
         date.year = readData.nextInt();
 
-        if ((date.month >= 1) && (date.month < 10)) {
-            System.out.printf("DATA FORMADA -> %d/0%d/%d", date.day, date.month, date.year);
-        }
-        else {
-            System.out.printf("DATA FORMADA -> %d/%d/%d", date.day, date.month, date.year);
-        }
+        System.out.printf(date.getDateFormated());
     }
 }
