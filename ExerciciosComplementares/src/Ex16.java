@@ -15,6 +15,8 @@ public class Ex16 {
         System.out.print("Informe o ano: ");
         int year = readData.nextInt();
 
+        readData.close();
+
         String stringYear = Integer.toString(year);
 
         // Defining the sizes for dates, day and month only accept two length. For example: 1, 10, 21, 01, 21;
