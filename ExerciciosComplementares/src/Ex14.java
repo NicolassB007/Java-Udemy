@@ -16,6 +16,8 @@ public class Ex14 {
         System.out.print("Qual operação/escolha você quer? ");
         int choice = readData.nextInt();
 
+        readData.close();
+
         double squareRoot = 0;
         double discount = 0;
         double finalValue = 0;
