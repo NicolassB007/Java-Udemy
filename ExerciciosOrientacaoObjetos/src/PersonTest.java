@@ -1,11 +1,10 @@
-import java.io.PrintStream;
 import java.util.Scanner;
 
-public class PessoaTeste {
+public class PersonTest {
     public static void main(String[] args) {
         Scanner readData = new Scanner(System.in);
 
-        Pessoa people = new Pessoa();
+        Person people = new Person();
 
         System.out.print("Informe o nome da pessoa: ");
         people.name = readData.nextLine().strip().toLowerCase();
