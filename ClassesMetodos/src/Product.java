@@ -1,13 +1,12 @@
 public class Product {
     String productName;
     double productValue;
-    static double discount = (double) 25 / 100;
+    static double discount = 0.25;
 
     // Construtor explícito
-    Product(String initialName, double initialPrice, double initialDiscount) {
+    Product(String initialName, double initialPrice) {
         productName = initialName;
         productValue = initialPrice;
-        discount = initialDiscount;
     }
 
     /*Product(String initialName, double initialPrice) {
