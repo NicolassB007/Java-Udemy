@@ -1,7 +1,7 @@
 public class Product {
     String productName;
     double productValue;
-    double discount;
+    static double discount = (double) 25 / 100;
 
     // Construtor explícito
     Product(String initialName, double initialPrice, double initialDiscount) {

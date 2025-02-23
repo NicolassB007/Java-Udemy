@@ -4,7 +4,7 @@ public class DateTeste {
     public static void main(String[] args) {
         var readData = new Scanner(System.in);
         DesafioDate date = new DesafioDate();
-        DesafioDate dateTwo = new DesafioDate();
+        DesafioDate dateTwo = new DesafioDate(12, 4, 2006);
 
         System.out.print("Informe um dia: ");
         dateTwo.day = readData.nextInt();
