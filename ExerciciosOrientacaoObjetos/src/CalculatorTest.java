@@ -29,7 +29,7 @@ public class CalculatorTest {
         System.out.printf("SUBTRAÇÃO = %.2f\n", resultSubtraction);
         System.out.printf("MULTIPLICAÇÃO = %.2f\n", resultMultiplication);
         System.out.printf("DIVISÃO = %.2f", resultDivision);
-        
+
         String calc = Calculator.calc(calculator.value, calculator.valueTwo, calculator.operator);
         System.out.printf(calc);
     }
