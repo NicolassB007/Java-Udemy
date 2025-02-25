@@ -13,9 +13,9 @@ public class DesafioDate {
         year = 1970;
     }
 
-    DesafioDate(int dayInitial, int monthInitial, int yearInitial) {
-        day = dayInitial;
-        month = monthInitial;
-        year = yearInitial;
+    DesafioDate(int day, int month, int year) {
+        this.day = day;
+        this.month = month;
+        this.year = year;
     }
 }
