@@ -26,7 +26,7 @@ public class Dinner {
 
         System.out.print("Informe o peso da comida (em gramas): ");
         food.secondFoodWeightString = readData.nextLine().replace(",", ".");
-        food.secondFoodWeight = Double.parseDouble(food.foodWeightString);
+        food.secondFoodWeight = Double.parseDouble(food.secondFoodWeightString);
 
         System.out.print("Você quer comer (s/n)? ");
         food.wannaEat = readData.next().toLowerCase();
