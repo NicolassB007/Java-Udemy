@@ -39,14 +39,21 @@ public class Ex08 {
             System.out.printf("%d ", result);
         }
 
+        int numColumns = array[0].length;
+        int[] addictionColumns = new int[numColumns];
+        int addiction = 0;
 
-        int addictionColums = 0;
-        System.out.println();
-        for (int i = 0; i < array.length; i++) {
-            addictionColums += array[i][numbersOfColumns - 1];
-            System.out.printf("SOMA DA COLUNA %d -> %d\n", (i + 1), addictionColums);
-            addictionColums = 0;
+        for (int colum = 0; colum < numColumns ; colum++) {
+            for (int line = 0; line < array.length; line++) {
+                addiction += array[line][colum];
+            }
+            addictionColumns[colum] = addiction;
+            addiction = 0;
         }
 
+        System.out.println("\nRESULTADO DE CADA COLUNA");
+        for (int i = 0; i < numColumns; i++) {
+            System.out.printf("%d ", addictionColumns[i]);
+        }
     }
 }
