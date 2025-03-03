@@ -52,8 +52,8 @@ public class Ex08 {
         }
 
         System.out.println("\nRESULTADO DE CADA COLUNA");
-        for (int i = 0; i < numColumns; i++) {
-            System.out.printf("%d ", addictionColumns[i]);
+        for (int result: addictionColumns) {
+            System.out.printf("%d ", result);
         }
     }
 }
