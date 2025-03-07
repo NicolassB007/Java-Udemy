@@ -4,6 +4,7 @@ public class Ex09 {
     static public class Contact {
         String phoneNumberString;
         int phoneNumberInt;
+
         ArrayList<String> nameList = new ArrayList<>();
         Map<String, Integer> contactMap = new HashMap<>();
     }
@@ -18,15 +19,6 @@ public class Ex09 {
 
             System.out.print("Informe o número de telefone: ");
             contact.phoneNumberString = readData.nextLine().strip();
-
-            if (contact.phoneNumberString.length() != 9) {
-                do {
-                    System.out.println("Foi inserido um número com mais de 9 digitos ou menos");
-                    System.out.println("Digite o número de telefone novamente");
-                    System.out.print("Número de telefone: ");
-                    contact.phoneNumberString = readData.nextLine();
-                } while (contact.phoneNumberString.length() != 9);
-            }
 
             contact.phoneNumberInt = Integer.parseInt(contact.phoneNumberString);
 
