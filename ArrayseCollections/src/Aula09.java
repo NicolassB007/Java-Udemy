@@ -9,7 +9,7 @@ public class Aula09 {
         usuario.put("Pietro", 16);
         usuario.put("Japa", 16);
         System.out.println(usuario.size());
-        System.out.println(usuario.isEmpty());
+        // System.out.println(usuario.isEmpty());
 
         System.out.println(usuario.keySet());
         System.out.println(usuario.values());
