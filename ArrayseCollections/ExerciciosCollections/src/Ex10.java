@@ -67,6 +67,5 @@ public class Ex10 {
                 break;
             }
         }
-        // System.out.println(listTask);
     }
 }
