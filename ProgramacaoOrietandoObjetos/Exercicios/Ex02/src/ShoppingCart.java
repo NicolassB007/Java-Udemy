@@ -1,11 +1,22 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ShoppingCart {
     ArrayList<Product> productsList = new ArrayList<>();
-    Product product;
+    ArrayList<Double> totalValueEachProduct = new ArrayList<>();
+    Map<Integer, Client> listNameAndAddress = new HashMap<>();
 
     void addProducts(Product product) {
-        this.product = new Product(product.productName, product.price, product.productCode, product.quantity);
         this.productsList.add(product);
+    }
+
+    ArrayList<Double> getTotalValue(Product product) {
+        double total;
+        total = product.price * product.quantity;
+
+        this.totalValueEachProduct.add(total);
+
+        return totalValueEachProduct;
     }
 }
