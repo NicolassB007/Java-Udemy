@@ -11,7 +11,7 @@ public class MessagesForUser {
     public void setMessages() {
         this.messages.put(idMessages++, "Computador: Aeeee! Consegui acertaar!! Que demais!");
         this.messages.put(idMessages++, "Computador: Que incrível! Acertei em cheio! Qual será o próxima dica?");
-        this.messages.put(idMessages++, "Computador: Uau, você é um mestre dos animais!");
+        this.messages.put(idMessages++, "Computador: Uau, eu sou o Mestre dos Animais!");
         this.messages.put(idMessages++, "Computador: Demais! Acertei! Estou adorando jogar com isso!");
         this.messages.put(idMessages++, "Computador: Que show! Você acertei! Mal posso esperar pela próxima dica!");
         this.messages.put(idMessages++, "Computador: Acho que sou um gênio dos animais hahah! Acertei! Que tal mais uma dica?");
