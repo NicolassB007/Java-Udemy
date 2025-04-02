@@ -20,10 +20,10 @@ public class Quadruped {
     }
 
     public void setclassificationOfMeal(String inputUser) {
-        if (inputUser.equalsIgnoreCase("Carnivoro")) {
+        if (inputUser.equalsIgnoreCase("Carnivoro") || inputUser.equalsIgnoreCase("Carnívoro")) {
             this.isCarnivorous = true;
         }
-        else if (inputUser.equalsIgnoreCase("Herbivoro")) {
+        else if (inputUser.equalsIgnoreCase("Herbivoro") || inputUser.equalsIgnoreCase("Herbívoro")) {
             this.isHerbivorous = true;
         }
     }

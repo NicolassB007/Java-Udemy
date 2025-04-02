@@ -109,6 +109,10 @@ public class MainSystem {
                             System.out.println("Nosso maior mamífero Aquático e mais Belo, quer te dizer algo!");
                             mammalFlying.whaleMessage();
                         }
+                        else {
+                            System.out.println("Parece que você ficou indeciso e acabou respondendo apenas não...");
+                            System.out.println("Seu jogo termina aqui.");
+                        }
                     }
                     else {
                         System.out.println("As informações fornecidas podem estar incorretas.");
