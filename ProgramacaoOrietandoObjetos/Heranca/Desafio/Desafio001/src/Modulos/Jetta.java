@@ -1,16 +1,18 @@
-public class Gtr extends Car{
+package Modulos;
 
-    Gtr() {
+public class Jetta extends Car {
+
+    public Jetta() {
 
     }
 
-    Gtr(int maxSpeed) {
+    public Jetta(int maxSpeed) {
         super(maxSpeed);
     }
 
     @Override
-    void accelerateCar() {
-        double delta = 10.0;
+    public void accelerateCar() {
+        double delta = 7.0;
         if (((actualSpeed + delta) > MAX_SPEED)) {
             actualSpeed = MAX_SPEED;
         }

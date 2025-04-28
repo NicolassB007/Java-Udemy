@@ -1,18 +1,16 @@
+package Modulos;
+
 public class Car {
-    double actualSpeed = 0;
+    public double actualSpeed = 0;
     // final int MAX_SPEED = 0;
-    int delta = 5;
-    int MAX_SPEED;
+    public int delta = 5;
+    public final int MAX_SPEED;
 
-    Car() {
-
-    }
-
-    Car(int max_speed) {
+    protected Car(int max_speed) {
         this.MAX_SPEED = max_speed;
     }
 
-    void accelerateCar() {
+    public void accelerateCar() {
         if (((this.actualSpeed + delta) > MAX_SPEED)) {
             this.actualSpeed = MAX_SPEED;
         }
@@ -21,7 +19,7 @@ public class Car {
         }
     }
 
-    void brakeCar() {
+    public void brakeCar() {
         if (this.actualSpeed > 0) {
             this.actualSpeed -= 3.0;
         }
