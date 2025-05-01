@@ -2,8 +2,7 @@ package Modulos;
 
 public class Car {
     public double actualSpeed = 0;
-    // final int MAX_SPEED = 0;
-    public int delta = 5;
+    private int delta;
     public final int MAX_SPEED;
 
     protected Car(int max_speed) {
@@ -11,11 +10,11 @@ public class Car {
     }
 
     public void accelerateCar() {
-        if (((this.actualSpeed + delta) > MAX_SPEED)) {
+        if (((this.actualSpeed + getDelta()) > MAX_SPEED)) {
             this.actualSpeed = MAX_SPEED;
         }
         else {
-            this.actualSpeed += 5.0;
+            this.actualSpeed += getDelta();
         }
     }
 
@@ -26,5 +25,13 @@ public class Car {
         else {
             this.actualSpeed = 0;
         }
+    }
+
+    public void setDelta(int delta) {
+        this.delta = delta;
+    }
+
+    public int getDelta() {
+        return this.delta;
     }
 }

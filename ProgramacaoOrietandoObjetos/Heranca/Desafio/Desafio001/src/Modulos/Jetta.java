@@ -3,7 +3,7 @@ package Modulos;
 public class Jetta extends Car {
 
     public Jetta() {
-
+        super(300);
     }
 
     public Jetta(int maxSpeed) {
