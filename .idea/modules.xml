@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProgramacaoOrietandoObjetos/Abstrato/Abstrato.iml" filepath="$PROJECT_DIR$/ProgramacaoOrietandoObjetos/Abstrato/Abstrato.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayseCollections/ArrayseCollections.iml" filepath="$PROJECT_DIR$/ArrayseCollections/ArrayseCollections.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgramacaoOrietandoObjetos/Heranca/Aula01/Aula01.iml" filepath="$PROJECT_DIR$/ProgramacaoOrietandoObjetos/Heranca/Aula01/Aula01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassesMetodos/ClassesMetodos.iml" filepath="$PROJECT_DIR$/ClassesMetodos/ClassesMetodos.iml" />
